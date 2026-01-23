@@ -8,7 +8,7 @@ pipeline {                               // pre-build
         COURSE = "jenkins"
     }
     options {
-        timeout (time: 10, unit: 'MINITUES')
+        timeout (time: 10, unit: 'MINITUES')     // we can set time for build pipeline 
     }
     stages {
         stage('Build') {                    // build 
