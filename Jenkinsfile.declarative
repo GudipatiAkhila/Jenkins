@@ -3,34 +3,24 @@ pipeline {
         node{
             label 'AGENT-1'
         }
-         environment {
-        COURSE = "Jenkins"
+         
     }
     stages {
         stage('Build') {
             steps {
-                sh """
+               
                    echo "Building"
-                   echo $COURSE
-                   env
-
-                """
             }
         }
         stage('Test') {                    // build
             steps {
-                sh """
-                   echo "Testing"
-
-                """
-                
+                   echo "Testing" 
             }
         }
         stage('Deploy') {
             steps {
-                sh """
+                
                     echo "Deploying"
-                """
             }
         }
     }
