@@ -1,7 +1,7 @@
 pipeline {
-    agent {
+    agent {                               // pre-build
         node{
-            label 'AGENT'
+            label 'AGENT-1'
         }
     }
     stages {
@@ -10,7 +10,7 @@ pipeline {
                 echo "Building"
             }
         }
-        stage('Test') {
+        stage('Test') {                    // build
             steps {
                 echo "Testing"
             }
@@ -24,10 +24,11 @@ pipeline {
     post {
         always {
             echo 'I will always say Hello again'  // this step is for it will execute even pipeline failed case also.
-            cleanWs()
+            cleanWs()                             //clean the workspace after the build finishes whther it may be failes / sucess
+
         }
         success {
-            echo 'I will run if success'
+            echo 'I will run if success'            // podt build
         }
         failure {
             echo 'I will run if failure'   
