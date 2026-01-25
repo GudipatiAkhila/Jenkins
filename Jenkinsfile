@@ -3,6 +3,7 @@ pipeline {
         node{
             label 'AGENT-1'
         }
+    }
          environment {
         COURSE = "Jenkins"
     }
