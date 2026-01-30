@@ -63,7 +63,7 @@ pipeline {
 
         }
         success {
-            echo 'I will run if success'            // podt build
+            echo 'I will run if success'            // post build section 
         }
         failure {
             echo 'I will run if failure'   
