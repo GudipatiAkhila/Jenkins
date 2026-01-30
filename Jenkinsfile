@@ -57,7 +57,7 @@ pipeline {
             //     }
             // }
             when {
-                expression { "$params.Deploy" }
+                expression { "$params.Deploy==true" }
             }
             steps {
                 script{
