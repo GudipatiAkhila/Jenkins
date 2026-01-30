@@ -63,7 +63,7 @@ pipeline {
 
         }
         success {
-            echo 'I will run if success'            // post build section 
+            echo 'I will run if success'            //  This is post build section 
         }
         failure {
             echo 'I will run if failure'   
