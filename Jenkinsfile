@@ -54,6 +54,7 @@ pipeline {
             }
         }
     }
+    // This is Post Section \\
     post {
         always {
             echo 'I will always say Hello again'  // this step is for it will execute even pipeline failed case also.
