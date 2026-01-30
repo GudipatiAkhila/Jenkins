@@ -1,54 +1,52 @@
 SHELL=/bin/bash
-RUN_TESTS_DISPLAY_URL=http://jenkins-agent.daws86s.website:8080/job/hello%20-%20pipeline/9/display/redirect?page=tests
+RUN_TESTS_DISPLAY_URL=http://98.80.120.251:8080/job/hello%20-%20pipeline/1/display/redirect?page=tests
 COURSE=Jenkins
 HISTSIZE=10000
 JENKINS_SERVER_COOKIE=durable-d2eb9636152136269138128cd5e90b02f254c09d76ac0100e58e715baf6aac9e
-GIT_PREVIOUS_SUCCESSFUL_COMMIT=8f65c72a813270ef46ee9fc8d4d57a9805b9adb6
 HISTTIMEFORMAT=%d/%m/%y %T 
 AWS_DEFAULT_REGION=us-east-1
-RUN_CHANGES_DISPLAY_URL=http://jenkins-agent.daws86s.website:8080/job/hello%20-%20pipeline/9/display/redirect?page=changes
+RUN_CHANGES_DISPLAY_URL=http://98.80.120.251:8080/job/hello%20-%20pipeline/1/display/redirect?page=changes
 HUDSON_HOME=/var/lib/jenkins
 PWD=/home/ec2-user/jenkins/workspace/hello - pipeline
 LOGNAME=ec2-user
 XDG_SESSION_TYPE=tty
-BUILD_URL=http://jenkins-agent.daws86s.website:8080/job/hello%20-%20pipeline/9/
+BUILD_URL=http://98.80.120.251:8080/job/hello%20-%20pipeline/1/
 ANSIBLE_DEPRECATION_WARNINGS=False
-JOB_URL=http://jenkins-agent.daws86s.website:8080/job/hello%20-%20pipeline/
-BUILD_NUMBER=9
+JOB_URL=http://98.80.120.251:8080/job/hello%20-%20pipeline/
+BUILD_NUMBER=1
 MOTD_SHOWN=pam
-JENKINS_NODE_COOKIE=74e71e81-efc8-4205-8289-1cbdeda83ef4
-BUILD_DISPLAY_NAME=#9
+JENKINS_NODE_COOKIE=18376d11-7b0f-4371-8cfd-01a4e54ed3d7
+BUILD_DISPLAY_NAME=#1
 HOME=/home/ec2-user
 LANG=C.UTF-8
 ANSIBLE_FORCE_COLOR=1
-JENKINS_URL=http://jenkins-agent.daws86s.website:8080/
+JENKINS_URL=http://98.80.120.251:8080/
 JOB_BASE_NAME=hello - pipeline
 PROMPT_COMMAND=$(history -w)
 JOB_NAME=hello - pipeline
-RUN_DISPLAY_URL=http://jenkins-agent.daws86s.website:8080/job/hello%20-%20pipeline/9/display/redirect
-SSH_CONNECTION=98.92.52.185 44386 172.31.91.181 22
-JOB_DISPLAY_URL=http://jenkins-agent.daws86s.website:8080/job/hello%20-%20pipeline/display/redirect
+RUN_DISPLAY_URL=http://98.80.120.251:8080/job/hello%20-%20pipeline/1/display/redirect
+SSH_CONNECTION=98.80.120.251 51646 172.31.24.48 22
+JOB_DISPLAY_URL=http://98.80.120.251:8080/job/hello%20-%20pipeline/display/redirect
 WORKSPACE=/home/ec2-user/jenkins/workspace/hello - pipeline
-GIT_PREVIOUS_COMMIT=8f65c72a813270ef46ee9fc8d4d57a9805b9adb6
-HUDSON_URL=http://jenkins-agent.daws86s.website:8080/
+HUDSON_URL=http://98.80.120.251:8080/
 XDG_SESSION_CLASS=user
 NODE_NAME=AGENT-1
 LESSOPEN=||/usr/bin/lesspipe.sh %s
 USER=ec2-user
-HUDSON_SERVER_COOKIE=3506434718a87426
+HUDSON_SERVER_COOKIE=744096203b413cac
 GIT_URL=https://github.com/GudipatiAkhila/Jenkins.git
 SHLVL=2
-BUILD_TAG=jenkins-hello - pipeline-9
-EXECUTOR_NUMBER=2
-HUDSON_COOKIE=3e9c6eaf-018d-42f4-b0fe-fa53525d6069
+BUILD_TAG=jenkins-hello - pipeline-1
+EXECUTOR_NUMBER=1
+HUDSON_COOKIE=d30c0e7c-1252-4a39-9c39-9f6e29c69d42
 SYSTEMD_PAGER=cat
-XDG_SESSION_ID=18
+XDG_SESSION_ID=6
 JENKINS_HOME=/var/lib/jenkins
 XDG_RUNTIME_DIR=/run/user/1001
-SSH_CLIENT=98.92.52.185 44386 22
+SSH_CLIENT=98.80.120.251 51646 22
 REQUESTS_CA_BUNDLE=/etc/pki/tls/certs/ca-bundle.crt
 DEBUGINFOD_IMA_CERT_PATH=/etc/keys/ima:
-GIT_COMMIT=cdedfcbd4b8ffb45a1f0e7dea36450274c818e02
+GIT_COMMIT=365127cd6c3727c4a1ff5b3883ba68a42a753ec6
 which_declare=declare -f
 NODE_LABELS=AGENT-1
 STAGE_NAME=Build
@@ -56,11 +54,11 @@ AWS_CA_BUNDLE=/etc/pki/tls/certs/ca-bundle.crt
 WORKSPACE_TMP=/home/ec2-user/jenkins/workspace/hello - pipeline@tmp
 XDG_DATA_DIRS=/home/ec2-user/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share
 PATH=/home/ec2-user/.local/bin:/home/ec2-user/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
-RUN_ARTIFACTS_DISPLAY_URL=http://jenkins-agent.daws86s.website:8080/job/hello%20-%20pipeline/9/display/redirect?page=artifacts
+RUN_ARTIFACTS_DISPLAY_URL=http://98.80.120.251:8080/job/hello%20-%20pipeline/1/display/redirect?page=artifacts
 CI=true
 DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1001/bus
 GIT_BRANCH=origin/main
-BUILD_ID=9
+BUILD_ID=1
 OLDPWD=/home/ec2-user
 BASH_FUNC_which%%=() {  ( alias;
  eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@

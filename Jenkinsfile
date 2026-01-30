@@ -8,8 +8,8 @@ pipeline {
         COURSE = "Jenkins"
     }
     options {
-        timeout(time: 10, unit: 'MINUTES') 
-        disableConcurrentBuilds()
+        timeout(time: 10, unit: 'MINUTES')     //If the pipeline runs longer than 10 minutes, Jenkins will automatically abort it.
+        disableConcurrentBuilds()       // Only ONE build can run at a time for this pipeline.
     }
 
     stages {
@@ -18,7 +18,7 @@ pipeline {
                 sh """
                    echo "Building"
                    echo $COURSE
-                   sleep 10
+                   #sleep 10
                    env
 
                 """
